@@ -172,7 +172,6 @@ h1, h2, h3, h4, h5 {
 
 .logo {
 	margin-top:10px;
-
 }
 
 .sub-title{
@@ -202,7 +201,6 @@ h1, h2, h3, h4, h5 {
 	margin-top: 20px;
 	margin-bottom:20px;
 	justify-content: left;
-
 }
 
 #service{
@@ -217,6 +215,28 @@ h1, h2, h3, h4, h5 {
 	height: auto;
 }
 
+.service-row{
+	width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+	max-width:1000px;
+
+}
+.service-row p{
+	text-align: center;
+}
+
+.contact-row{
+	widows: 100%;
+	padding: 20px;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.contact-row p{
+	text-align: center;
+}
+
 .row{
 	width:100%;
 	padding:20px;
@@ -226,42 +246,37 @@ h1, h2, h3, h4, h5 {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-}
+} 
 
 .row hr{
 	width: 100%;
 	border: 0.5px solid black;
 }
 
-
-
 .column{
 	display: flex;
-  flex-direction: column;
-  
-  
+  	flex-direction: column;
 }
 
 .top-content{
 	display: flex;
 	flex-direction: column;
-
 }
 
 .bottom-content{
 	display: flex;
-	flex-direction: column;
+	flex-direction: column;	
 }
+
 .list{
 	display: flex;
 	flex-direction: column;
-	
 }
+
 .list-list{
 	display: flex;
 	flex-direction: column;
 	list-style-type: square;
-
 }
 
 .more{
@@ -278,8 +293,8 @@ h1, h2, h3, h4, h5 {
 /* Reduced width to fix margin/padding */
 .col-50{
 	width: 43%;
-	
 }
+	
 .col-50.h2{
 	font-size:40px;
 }
